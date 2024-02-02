@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" type="image/png" href="images/lp2i2.png" />
+		
+		<!-- CSS Personnel 
+		<link rel="stylesheet" type="text/css" href="css/style.css" />-->
+		
+		<!-- Balise META -->
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta http-equiv="content-language" content="fr-FR" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<base target="_self" />
+		
+		<title>3iCase</title>
+		
+	</head>
+
+	<body oncontextmenu="return false">
+		<br>
+		<form method="post" action="traitement_inscription.php" id="formvalid">
+			<fieldset>
+				<legend>
+					<b>CRÉATION DU COMPTE</b>
+				</legend>
+				<table>
+					<tr>
+						<td  align="left" style="width:250px"><b>Login</b></td>
+					
+						<td ><input size="40" type="text" name="login" required /></td>
+					</tr>
+					<tr>
+						<td  align="left" style="width:250px"><b>Adresse de courriel</b></td>
+					
+						<td  ><input size="40" type="email" name="email" required /></td>
+					</tr>
+					<tr>
+						<td  align="left" style="width:250px"><b>Mot de passe</b></td>
+					
+						<td  ><input size="40" type="password" name="pwd1" placeholder="4 chiffres" maxlength="4" pattern="[0-9]{4}" required /></td>
+					</tr>
+					<tr>
+						<td  align="left" style="width:250px"><b>Ressaisissez votre mot de passe</b></td>
+					
+						<td  ><input size="40" type="password" name="pwd2" placeholder="Ressaisissez les 4 chiffres précédents..." maxlength="4" pattern="[0-9]{4}" required /></td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td><input type="submit" name="Valider" value="OK" /></td>
+						<td><input type="reset" name="Annuler" value="ESC" /></td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+		<br>
+		<button onclick="window.location.href='index.html';">Retour</button>
+		<br>
+		<br>
+		<br>
+		<br>
+		<hr>
+		<p style="text-align:center;font-size:x-small;margin-right:30px">Réalisation 3Il</p>
+		<hr>
+	</body>
+</html>
